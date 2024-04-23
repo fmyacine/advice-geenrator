@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    background-color: hsl(220,22%,16%);
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: hsl(214,18%,23%);
+    padding: 1.5rem 2.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    max-width: 45vh;
+    text-align:center;
+}
+
+.box h1{
+    color: hsl(150, 100%, 66%);
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.box p{
+    font-weight: 800;
+    font-size: 24px;
+    color: whitesmoke;
+
+}
+
+button{
+    background-color: hsl(150, 100%, 66%);
+    padding: 10px;
+    border-radius: 50%;
+    border-color: hsl(150, 100%, 66%);
+    outline-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    margin-top: 0.75rem;
+    transition-duration: 80ms;
+}
+
+button:hover{
+    background-color: hsl(150, 51%, 47%);
+}
